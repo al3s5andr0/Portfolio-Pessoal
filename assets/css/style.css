@@ -1,0 +1,156 @@
+/* Estilo do cabeçalho */
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+/* Estilo da lista cabeçalho */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Estilo do rodapé */
+footer {
+  background-color: #333;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+}
+
+footer .container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+/* Estilo do meio conteúdo */
+.meio {
+  background-color: red;
+}
+
+.conteudo {
+  display: flex; /* Ativa o layout flexível para alinhar os filhos em linha */
+  flex-wrap: wrap;/* Permite que os elementos quebrem de linha se necessário */
+  justify-content: center; /* Centraliza os elementos horizontalmente no container */
+  align-items: flex-start; /* Alinha os itens pelo topo (início do eixo vertical) */
+  gap: 5px; /* Espaçamento entre a imagem e o texto */
+  background-color: rgb(143, 143, 143); /* Cor de fundo do bloco */
+  padding: 10px 155px 10px 155px;  /* Espaçamento interno */
+  border-right: 450px solid rgb(3, 0, 0); /* Configuração de borda direita */
+  border-left: 450px solid rgb(3, 0, 0); /* Configuração de borda esquerda */
+}
+
+.conteudocontato {
+  text-align: center;
+}
+
+.conteudo4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0px;
+  background-color: rgb(143, 143, 143);
+  padding: 0px 155px 0px 155px; 
+  border-right: 450px solid rgb(3, 0, 0);
+  border-left: 450px solid rgb(3, 0, 0);
+}
+
+.foto-container2 {
+ position: absolute;
+ padding: 0px 0px 0px 450px;
+ display: flex;  
+}
+
+#foto-container1 {
+  opacity: 0.7;
+  height: 150px;
+  position: absolute;
+  padding: 19px 310px 00px 0px;
+  display: flex;  
+}
+
+/* Imagem fixa mas responsiva */
+.img1  {
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: -40px;
+  object-fit: cover; /* Limita a largura máxima da imagem para manter equilíbrio no layout */
+  height: 0px;
+  width: 0px;
+}
+
+.img2 {
+  width: auto;
+  height: auto;
+  object-fit: cover;
+}
+
+.img3{
+  position: absolute;
+  width: auto;
+  height: auto;
+  object-fit: cover; 
+  left: 1455px;
+  height: 0px;
+  width: 0px;
+}
+
+.img4{
+  width: 28%;
+  position: absolute;
+  top: 129px;
+  left: -55px;
+}
+
+.imgGif {
+  display: flex;
+  justify-content: center;
+}
+
+/* Texto ocupa até 600px, mas se adapta */
+.texto {
+  font-size: 25px; /* Tamanho confortável da fonte */
+  flex: 1 1 500px; /* Tenta ocupar 500px, mas também é flexível */
+  max-width: max-content; /* máximo tamanho*/
+}
+
+/* Centraliza o título */
+.titulo {
+  font-size: 36px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.dadosPessoais {
+  display: flex;
+  justify-content: center;
+  font-family: 'minhaFonte' ;
+  font-size: 40px;
+  background-color: #626262;
+  margin: 0px;
+}
+
+/* Importando fonte */
+@font-face {
+    font-family: 'minhaFonte';
+    src: url(FormaleScript_PERSONAL_USE_ONLY.otf) format('opentype'); 
+}
